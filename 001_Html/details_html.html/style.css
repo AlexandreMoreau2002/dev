@@ -1,0 +1,8 @@
+summary {
+    padding: 0 auto;
+}
+
+.style {
+    display: flex;
+    gap: 10px;
+}

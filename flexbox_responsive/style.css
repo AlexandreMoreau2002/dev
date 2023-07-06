@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.640515581232493) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+.form {
+    position: fixed;
+    bottom: 50%;
+    margin: 0 40px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.name {
+    flex: 1 0 140px;
+}
+
+.email {
+    flex: 1 0 140px;
+}
+
+.btn {
+    flex: 1 0 50px;
+}
+
+.name, .email, .btn {
+    zoom: 2;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.name::placeholder, .email::placeholder {
+    padding-left: 5px;
+    background-color: #f1f1f6;
+    color: darkmagenta;
+}
+
+.btn {
+    padding-left: 5px;
+    background-color: #f1f1f6;
+    color: darkmagenta;
+}

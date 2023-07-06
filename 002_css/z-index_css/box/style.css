@@ -1,0 +1,18 @@
+.boite {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .rouge {
+    background-color: red;
+    transform: translate(15% , 50%);
+    z-index: 2;
+  }
+  
+  .bleue {
+    background-color: blue;
+    z-index: 1;
+    
+  }
+  
