@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/../premier_programme/.idea/premier_programme.iml" filepath="$PROJECT_DIR$/../premier_programme/.idea/premier_programme.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/test_perso.iml" filepath="$PROJECT_DIR$/.idea/test_perso.iml" />
-    </modules>
-  </component>
-</project>
