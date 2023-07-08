@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50% );
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+
+            border: solid 1px color-mix(in srgb, red 50%, green);
+            padding: 2%;
+        }
+
+        .container:hover {
+            zoom: 200%;
+        }
+
+        hr {
+            border: 0;
+            width: 100px;
+            height: 1px;
+            background-color: red;
+        }
+    </style>
+
+    <div class="container">
+        <hr>
+        <p>or</p>
+        <hr>
+    </div>
+</body>
+</html>
